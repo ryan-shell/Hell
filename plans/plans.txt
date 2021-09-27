@@ -1,0 +1,40 @@
+Before you write any code, you need to come up with a plan. Be prepared to answer the following questions:
+
+How are you storing the word or phrase selection? How are you storing its hint?
+
+The words will be stored in a list as well as the categories and their hints
+
+How are you managing each player's turn?
+
+a players turn will be managed by a variable that is reset at the start of each round
+
+How are you maintaining each player's bank?
+
+There will be two banks the players total bank and the round bank each stored in a list with a specific index for each players total.
+
+
+What does the logic look like for managing a round?
+
+there will be a loop that will end once the puzzle is solved.
+
+    spin the wheel and guess consonant
+        option to buy a vowel after spinning wheel
+
+        buy a vowel for 250
+    Attempt to solve puzzle
+
+
+What does the logic look like for buying a vowel?
+
+    after spinning the wheel and guessing consonant they will have option to buy vowel
+    if they dont then there turn ends
+    and it advances to next player
+
+How are you running the game overall?
+
+    there will be a loop for the round overall which will keep track of when the round ends
+    these may get broken up into different functions depending on exactly what is happening
+    
+
+
+
